@@ -1,0 +1,20 @@
+{
+  "name": "highlinedesign",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "DogukanSAVA <dogukan98sv@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
+}

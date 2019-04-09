@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600');
+
+body {
+    background-color: #0f0f0f;
+
+}
+
+.Logo-Center {
+    text-align: end;
+}
+
+.Logo-Marg {
+    margin-top: 30px;
+}
+
+.MargZero {
+    margin-left: 0;
+}
+
+.Text-Weare {
+    font-size: 56px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.Text-ComingSoon {
+    font-size: 104px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -16px;
+}
+
+.Long-writing {
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 55px;
+}
+
+.content p {
+    text-align: right;
+}
+
+.Logo {
+    margin-left: 14px;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #C99839;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 72px;
+    position: relative;
+    z-index: 55;
+
+}
+
+#clockdiv > div {
+    padding: 10px;
+    display: inline-block;
+}
+
+.smalltext {
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.content {
+    display: inline-block;
+    position: relative;
+    bottom: 66px;
+}
+
+.L-Position {
+    position: absolute;
+    left: 40%;
+
+}
+
+
+
+@media only screen and (max-width: 1920px){
+    .L-Position{left: 28%;}
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .L-Position {
+        position: absolute;
+        left: 16%;
+        bottom: -34px;
+    }
+
+    .Arow-Logo {
+        width: 30%;
+        margin-right: 20rem;
+    }
+
+    .Hd-Logo {
+        position: relative;
+        right: 14rem;
+    }
+
+    .Center-one {
+        text-align: center;
+
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .L-Position {
+        position: absolute;
+        left: 8%;
+        bottom: -34px;
+    }
+
+    .Arow-Logo {
+        position: relative;
+        right: 20rem;
+        width: 40%;
+        top: 5rem;
+    }
+
+    .Hd-Logo {
+        position: relative;
+        right: 0;
+        width: 40%;
+        top: -10rem;
+    }
+
+    .Center-one {
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .Text-ComingSoon {
+        font-size: 70px;
+
+    }
+
+    .Text-Weare {
+        font-size: 40px;
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .L-Position {
+        left: 2%;
+        width: 70%;
+        bottom: 16rem;
+    }
+
+    #clockdiv {
+
+        font-size: 30px;
+
+    }
+
+    .Arow-Logo {
+
+        right: 6rem;
+        width: 30%;
+        top: 4rem;
+    }
+
+    .Hd-Logo {
+        position: relative;
+        right: 1rem;
+        width: 40%;
+        top: -6rem;
+    }
+
+    .content {
+        display: inline-block;
+        position: relative;
+        bottom: 42px;
+    }
+
+    .Center-one {
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 497px) {
+
+    .Arow-Logo {
+        position: relative;
+        right: 4rem;
+
+        width: 30%;
+        top: 6rem;
+    }
+
+    .Hd-Logo {
+        position: relative;
+        right: 8px;
+        width: 50%;
+        top: -4rem;;
+    }
+
+    .Center-one {
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .L-Position {
+        position: absolute;
+        left: 2%;
+        bottom: 0;
+        width: 90%;
+    }
+
+    #clockdiv {
+        font-family: sans-serif;
+        color: #C99839;
+        display: inline-block;
+        font-weight: 100;
+        text-align: center;
+        font-size: 36px;
+        position: relative;
+        z-index: 55;
+        top: -40px;
+    }
+
+    .smalltext {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .content {
+        display: inline-block;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .Text-Weare {
+        font-size: 30px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Text-ComingSoon {
+        font-size: 40px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        margin-top: -16px;
+    }
+
+    .Long-writing {
+        color: white;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 55px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .L-Position {
+        left: 0;
+    }
+
+    .Arow-Logo {
+        top: 5rem;
+        right: 0;
+        width: 24%;
+    }
+
+    .Hd-Logo {
+        top: -3rem;
+        width: 50%;
+    }
+
+    .Center-one {
+        margin-top: 20px;
+    }
+
+    #clockdiv {
+        font-size: 22px;
+    }
+
+    .Text-Weare {
+        font-size: 16px;
+    }
+
+    .Text-ComingSoon {
+        font-size: 20px;
+    }
+
+    .Long-writing {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (height: 1366px) {
+
+    .L-Position {
+        left: 16%;
+        bottom: 20rem;
+    }
+
+    .Center-one {
+        margin-top: 10rem;
+    }
+}
+
+
+
+@media only screen and (height: 1024px) {
+    .L-Position {
+        left: 14%;
+        width: 60%;
+        bottom: 12rem;
+    }
+
+    .Center-one {
+        margin-top: 8rem;
+    }
+
+    .Arow-Logo {
+        right: -10rem;
+    }
+
+    .Hd-Logo {
+        top: 6rem;
+    }
+
+}
+
+@media only screen and (height: 823px) {
+
+    .L-Position {
+        bottom: 12rem;
+        left: 4%;
+    }
+
+}
+
+@media only screen and (height: 812px) {
+
+    .Long-writing {
+        font-size: 16px;
+    }
+
+    .Text-ComingSoon {
+        font-size: 60px;
+    }
+
+    .Text-Weare {
+        font-size: 50px;
+    }
+
+    .Arow-Logo {
+        top: 0;
+
+        width: 54%;
+    }
+
+    .Center-one {
+        margin-top: 0;
+    }
+
+    .Hd-Logo {
+        top: -10rem;
+    }
+}
+
+@media only screen and (height: 736px) {
+
+        .L-Position {
+            left: 4%;
+            bottom: 8rem;
+            width: 70%;
+        }
+
+        .Text-Weare {
+            font-size: 50px;
+        }
+
+        .Long-writing {
+            font-size: 16px;
+        }
+
+        .Text-ComingSoon {
+            font-size: 50px;
+        }
+
+        .Center-one {
+            margin-top: 0;
+        }
+    }
+
+@media only screen and (height: 731px) {
+        .L-Position {
+            left: 4%;
+            bottom: 12rem;
+        }
+
+        .Center-one {
+            margin-top: 0;
+        }
+    }
+
+@media only screen and (height: 640px) {
+
+        .L-Position {
+            bottom: 8rem;
+            margin-top: 0;
+        }
+
+        .Arow-Logo {
+            right: 0;
+        }
+
+        .Center-one {
+            margin-top: 0;
+        }
+    }
+
+@media only screen and (height: 568px) {
+
+        .L-Position {
+            left: 4%;
+            bottom: 8rem;
+        }
+
+        .Text-Weare {
+            font-size: 40px;
+        }
+
+        .Long-writing {
+            font-size: 12px;
+        }
+
+        .Center-one {
+            margin-top: 30px;
+        }
+    }
+
+@media only screen and (height: 480px) {
+        .L-Position {
+            left: 4%;
+            width: 70%;
+            bottom: 12%;
+        }
+
+        #clockdiv {
+            font-size: 16px;
+        }
+
+        .Long-writing {
+            font-size: 12px;
+        }
+
+        .Arow-Logo {
+            top: 4rem;
+            width: 30%;
+            left: 2rem;
+        }
+    }
